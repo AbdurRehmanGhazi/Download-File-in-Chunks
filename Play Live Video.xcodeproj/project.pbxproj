@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		058EF2A4C6FF3E9B09118275 /* Pods_Play_Live_Video.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 534B479F6AA479895EBE2CA0 /* Pods_Play_Live_Video.framework */; };
+		145436F82B1490E500CB7366 /* VLCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145436F72B1490E500CB7366 /* VLCVC.swift */; };
+		14AC0B112B4C131900D60068 /* FlipBook in Frameworks */ = {isa = PBXBuildFile; productRef = 14AC0B102B4C131900D60068 /* FlipBook */; };
+		14BB0B622B107F5800E47D89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BB0B612B107F5800E47D89 /* AppDelegate.swift */; };
+		14BB0B642B107F5800E47D89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BB0B632B107F5800E47D89 /* SceneDelegate.swift */; };
+		14BB0B662B107F5800E47D89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BB0B652B107F5800E47D89 /* ViewController.swift */; };
+		14BB0B692B107F5800E47D89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14BB0B672B107F5800E47D89 /* Main.storyboard */; };
+		14BB0B6B2B107F5B00E47D89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14BB0B6A2B107F5B00E47D89 /* Assets.xcassets */; };
+		14BB0B6E2B107F5B00E47D89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14BB0B6C2B107F5B00E47D89 /* LaunchScreen.storyboard */; };
+		14CE84532B7B55120037E79F /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CE84522B7B55120037E79F /* NewViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		145436F72B1490E500CB7366 /* VLCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VLCVC.swift; sourceTree = "<group>"; };
+		14BB0B5E2B107F5800E47D89 /* Play Live Video.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Play Live Video.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14BB0B612B107F5800E47D89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14BB0B632B107F5800E47D89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		14BB0B652B107F5800E47D89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14BB0B682B107F5800E47D89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14BB0B6A2B107F5B00E47D89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14BB0B6D2B107F5B00E47D89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14BB0B6F2B107F5B00E47D89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14CE84522B7B55120037E79F /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		534B479F6AA479895EBE2CA0 /* Pods_Play_Live_Video.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Play_Live_Video.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C689CEBA2EF522A715862F1 /* Pods-Play Live Video.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Play Live Video.release.xcconfig"; path = "Target Support Files/Pods-Play Live Video/Pods-Play Live Video.release.xcconfig"; sourceTree = "<group>"; };
+		707CE545F2452A9AB9E4E33B /* Pods-Play Live Video.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Play Live Video.debug.xcconfig"; path = "Target Support Files/Pods-Play Live Video/Pods-Play Live Video.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14BB0B5B2B107F5800E47D89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14AC0B112B4C131900D60068 /* FlipBook in Frameworks */,
+				058EF2A4C6FF3E9B09118275 /* Pods_Play_Live_Video.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14BB0B552B107F5800E47D89 = {
+			isa = PBXGroup;
+			children = (
+				14BB0B602B107F5800E47D89 /* Play Live Video */,
+				14BB0B5F2B107F5800E47D89 /* Products */,
+				74E1514624C695C120AE533F /* Pods */,
+				F4B0DDE8093D8CA277B73DD8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		14BB0B5F2B107F5800E47D89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14BB0B5E2B107F5800E47D89 /* Play Live Video.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14BB0B602B107F5800E47D89 /* Play Live Video */ = {
+			isa = PBXGroup;
+			children = (
+				14BB0B612B107F5800E47D89 /* AppDelegate.swift */,
+				14BB0B632B107F5800E47D89 /* SceneDelegate.swift */,
+				14BB0B652B107F5800E47D89 /* ViewController.swift */,
+				14BB0B672B107F5800E47D89 /* Main.storyboard */,
+				14BB0B6A2B107F5B00E47D89 /* Assets.xcassets */,
+				14BB0B6C2B107F5B00E47D89 /* LaunchScreen.storyboard */,
+				14BB0B6F2B107F5B00E47D89 /* Info.plist */,
+				145436F72B1490E500CB7366 /* VLCVC.swift */,
+				14CE84522B7B55120037E79F /* NewViewController.swift */,
+			);
+			path = "Play Live Video";
+			sourceTree = "<group>";
+		};
+		74E1514624C695C120AE533F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				707CE545F2452A9AB9E4E33B /* Pods-Play Live Video.debug.xcconfig */,
+				5C689CEBA2EF522A715862F1 /* Pods-Play Live Video.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F4B0DDE8093D8CA277B73DD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				534B479F6AA479895EBE2CA0 /* Pods_Play_Live_Video.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14BB0B5D2B107F5800E47D89 /* Play Live Video */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14BB0B722B107F5B00E47D89 /* Build configuration list for PBXNativeTarget "Play Live Video" */;
+			buildPhases = (
+				0B93BE950E47E30D00862F81 /* [CP] Check Pods Manifest.lock */,
+				14BB0B5A2B107F5800E47D89 /* Sources */,
+				14BB0B5B2B107F5800E47D89 /* Frameworks */,
+				14BB0B5C2B107F5800E47D89 /* Resources */,
+				FDD3D346E1E47C093F07870C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Play Live Video";
+			packageProductDependencies = (
+				14AC0B102B4C131900D60068 /* FlipBook */,
+			);
+			productName = "Play Live Video";
+			productReference = 14BB0B5E2B107F5800E47D89 /* Play Live Video.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14BB0B562B107F5800E47D89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					14BB0B5D2B107F5800E47D89 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 14BB0B592B107F5800E47D89 /* Build configuration list for PBXProject "Play Live Video" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14BB0B552B107F5800E47D89;
+			packageReferences = (
+				14AC0B0F2B4C131900D60068 /* XCRemoteSwiftPackageReference "FlipBook" */,
+			);
+			productRefGroup = 14BB0B5F2B107F5800E47D89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14BB0B5D2B107F5800E47D89 /* Play Live Video */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14BB0B5C2B107F5800E47D89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14BB0B6E2B107F5B00E47D89 /* LaunchScreen.storyboard in Resources */,
+				14BB0B6B2B107F5B00E47D89 /* Assets.xcassets in Resources */,
+				14BB0B692B107F5800E47D89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B93BE950E47E30D00862F81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Play Live Video-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDD3D346E1E47C093F07870C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Play Live Video/Pods-Play Live Video-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Play Live Video/Pods-Play Live Video-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Play Live Video/Pods-Play Live Video-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14BB0B5A2B107F5800E47D89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145436F82B1490E500CB7366 /* VLCVC.swift in Sources */,
+				14BB0B662B107F5800E47D89 /* ViewController.swift in Sources */,
+				14CE84532B7B55120037E79F /* NewViewController.swift in Sources */,
+				14BB0B622B107F5800E47D89 /* AppDelegate.swift in Sources */,
+				14BB0B642B107F5800E47D89 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14BB0B672B107F5800E47D89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14BB0B682B107F5800E47D89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14BB0B6C2B107F5B00E47D89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14BB0B6D2B107F5B00E47D89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14BB0B702B107F5B00E47D89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14BB0B712B107F5B00E47D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14BB0B732B107F5B00E47D89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 707CE545F2452A9AB9E4E33B /* Pods-Play Live Video.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 949LUWKKSC;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Play Live Video/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartfusion.practice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14BB0B742B107F5B00E47D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C689CEBA2EF522A715862F1 /* Pods-Play Live Video.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 949LUWKKSC;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Play Live Video/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartfusion.practice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14BB0B592B107F5800E47D89 /* Build configuration list for PBXProject "Play Live Video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14BB0B702B107F5B00E47D89 /* Debug */,
+				14BB0B712B107F5B00E47D89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14BB0B722B107F5B00E47D89 /* Build configuration list for PBXNativeTarget "Play Live Video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14BB0B732B107F5B00E47D89 /* Debug */,
+				14BB0B742B107F5B00E47D89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		14AC0B0F2B4C131900D60068 /* XCRemoteSwiftPackageReference "FlipBook" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bgayman/FlipBook.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.10;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		14AC0B102B4C131900D60068 /* FlipBook */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14AC0B0F2B4C131900D60068 /* XCRemoteSwiftPackageReference "FlipBook" */;
+			productName = FlipBook;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 14BB0B562B107F5800E47D89 /* Project object */;
+}
